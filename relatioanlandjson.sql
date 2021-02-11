@@ -28,8 +28,7 @@ SELECT EmployeeName,
    AND ET.EmployeeId = DP.EmployeeId;
 
 --
--- Join relational table to JSON column. Note that a NESTED PATH
--- is not required to link the zebra name to the reasons for fame
+-- Join relational table to JSON column. 
 --
 SELECT EmployeeName,
        Position
